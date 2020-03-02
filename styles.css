@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 2px red solid;
+  font-family: Amatic SC;
+  background-color: #fcf8e8;
+}
+
+content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  align-items: center;
+}
+
+.days {
+  border-style: dashed;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+.diary-content-wrapper {
+  width: 50%;
+}
+
+.winstonmoon {
+  height: 250px;
+  width: auto;
+}
