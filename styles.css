@@ -3,34 +3,39 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  border: 2px red solid;
+  /* border: 2px red solid; */
   font-family: Amatic SC;
   background-color: #fcf8e8;
 }
-
-content-wrapper {
+body {
+  font-family: Amatic SC;
+  margin: 0;
+  padding: 0;
+}
+#content-wrapper {
+}
+#diary-content-wrapper {
   display: flex;
   flex-direction: column;
-}
-
-.banner {
   align-items: center;
+  height: auto;
 }
-
+.banner {
+  text-align: center;
+}
 .days {
   border-style: dashed;
   justify-content: center;
   align-items: center;
+  width: 800px;
 }
-
 p {
   font-size: 20px;
 }
-
 .diary-content-wrapper {
-  width: 50%;
+  text-align: center;
+  width: 100vw;
 }
-
 .winstonmoon {
   height: 250px;
   width: auto;
